@@ -91,9 +91,6 @@
   }
   
   
-
-
-
   main{
     padding-top: 1px;
     /* margin-bottom: 150px; */
@@ -225,8 +222,8 @@ form select[name="locations"] {
     background-image: url('/images/BACKGROUND2.jpg');
     background-position-x: right;
     background-size: 100%;
-    /* background-attachment: fixed; */
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
   }
   
   .second *{
@@ -305,6 +302,8 @@ form select[name="locations"] {
   
   .orange{
     color:orange;
+    font-weight: bold;
+    font-size: 20px;
   }
   
   .hours section{
@@ -383,3 +382,23 @@ form select[name="locations"] {
     width:80%;
   }
 
+.p ,.reviewp{
+  font-weight: bold;
+}
+/* 
+@media (max-width: 844PX) {
+  body {
+    background-size: auto;
+  }
+
+  .nav ul li:not(:nth-last-child(2)):not(:last-child) {
+    display: none;
+  }
+
+  .upper h1{
+    font-size: 50px;
+  }
+} */
+
+
+  
