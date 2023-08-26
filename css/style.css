@@ -67,6 +67,7 @@
   .logo img {
     width: 100px; /* Adjust the width as needed */
     height: auto;
+    opacity: .6;
   }
   
   .nav ul {
@@ -90,6 +91,8 @@
   }
   
   
+
+
 
   main{
     padding-top: 1px;
@@ -117,9 +120,100 @@
   body > section {  
     padding-bottom: 125px;
   }
+
+
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form select[name="locations"] {
+  height: 40px; /* Adjust the height as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+  
+}
+form input[type="text"] {
+  height: 40px; 
+  width: 300px; 
+  font-size: 16px; 
+}
+
+
+form select[name="locations"] {
+  margin-left: 10px; /* Adjust the spacing between input and dropdown */
+  border-radius: 20px;
+  background-color:orange;
+  color:white;
+}
+
+.box{
+
+	width: 500px;
+
+	height: 50px;
+
+	background-color: white;
+
+	border-radius: 30px;
+
+	display: flex;
+
+	align-items: center;
+
+	padding: 20px;
+
+}
+
+.box > i {
+
+	font-size: 20px;
+
+	color: #777;
+
+}
+
+.box > input{
+
+	flex: 1;
+
+	height: 40px;
+
+	border: none;
+
+	outline: none;
+
+	font-size: 18px;
+
+	padding-left: 10px;
+
+
+}
+
+.icons{
+  width: 25px;
+  height: auto;
+}
+
+
+
+
+
+
   .socialmedialinks{
       padding-top: 10px;
   }
+
+  .socialmedialinks .fb{
+    margin-left: 20px;
+}
+
+
+  .socialmedialinks span {
+    margin-right: 70px; /* Adjust the margin as needed */
+}
+
+
   
   /******************************************
   /* ADDITIONAL STYLES
@@ -218,7 +312,7 @@
   }
   
   .REVIEW{
-    background-color: rgb(242, 246, 247);
+    background-color: rgb(197, 195, 196)
   }
   
   .REVIEW {
@@ -251,9 +345,9 @@
   
   
   footer{
-    background-color: rgb(242, 246, 247);
-  
+    background-color: rgb(208, 208, 208);
   }
+  
   footer section{
     float:left;
     width:25%;
@@ -267,6 +361,7 @@
   .foot{
     width:100px;
     height: auto;
+    opacity: .6;
   }
   
   /* header nav *, header nav li{
@@ -284,4 +379,7 @@
     flex-basis: 20%;
   } */
   
-  
+  .summary {
+    width:80%;
+  }
+
