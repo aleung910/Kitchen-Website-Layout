@@ -90,14 +90,14 @@
   }
   
   
-  
+
   main{
     padding-top: 1px;
     /* margin-bottom: 150px; */
     padding-bottom: 200px;
     padding-left:150px;
     clear:both; /* WHAT THE FUCK DOES THIS DO */
-    background-image: url('splash.jpg');
+    background-image: url('/images/splash.jpg');
     background-position-x: right;
     background-size: 100%;
     background-attachment: fixed;
@@ -128,7 +128,7 @@
   .second{
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url('BACKGROUND2.jpg');
+    background-image: url('/images/BACKGROUND2.jpg');
     background-position-x: right;
     background-size: 100%;
     /* background-attachment: fixed; */
@@ -183,14 +183,11 @@
   .images section {
     margin: 0px 50px;
   }
-  
-  
-  
-  
+
   
   .hours{
     padding: 50px 0;
-    background-image: url('BACKGROUND.jpg');
+    background-image: url('/images/BACKGROUND.jpg');
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -203,8 +200,6 @@
   .hours section{
     line-height: 1px;
   }
-  
-  
   
   .PHONE{
     display: block;
@@ -225,8 +220,6 @@
   .REVIEW{
     background-color: rgb(242, 246, 247);
   }
-  
-  
   
   .REVIEW {
     display: flex;
