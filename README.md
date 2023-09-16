@@ -1,6 +1,6 @@
 # Kitchen-Website-Layout
 This is a template landing pad for a Kitchen Website, where I wanted to test out my front-end capabilities.
-**Link to project:** http://recruiters-love-seeing-live-demos.com/](https://aleung910.github.io/Kitchen-Website-Layout/
+**Link to project:** https://aleung910.github.io/Kitchen-Website-Layout/
 # Screenshot
 ![](./images/screenshot.jpg)
 ## How It's Made:
