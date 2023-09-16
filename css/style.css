@@ -72,7 +72,7 @@ main{
   padding-bottom: 200px;
   padding-left:150px;
   clear:both; 
-  background-image: url('/images/splash.jpg');
+  background-image: url('../images/splash.jpg');
   background-position-x: right;
   background-size: 100%;
   /* background-attachment: fixed; */
@@ -177,7 +177,7 @@ height: auto;
 .second{
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url('/images/BACKGROUND2.jpg');
+  background-image: url('../images/BACKGROUND2.jpg');
   background-position-x: right;
   background-size: 100%;
   background-attachment: fixed;
@@ -225,13 +225,12 @@ p{
 .MIDDLE  li{
   display: flex;
   flex-basis: 7%;
-
 }
 
 
 .hours{
   padding: 50px 0;
-  background-image: url('/images/BACKGROUND.jpg');
+  background-image: url('../images/BACKGROUND.jpg');
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
