@@ -1,404 +1,351 @@
 /* Box Model Hack */
 * {
-    box-sizing: border-box;
-  }
-  
-  /* Clear fix hack */
-  .clearfix:after {
-       content: ".";
-       display: block;
-       clear: both;
-       visibility: hidden;
-       line-height: 0;
-       height: 0;
-  }
-  
-  .clear {
-      clear: both;
-  }
-  
-  /******************************************
-  /* BASE STYLES
-  /*******************************************/
-  
-  body {
-    font-family: 'Cormorant Garamond', serif;
-  }
-  
-  
-  /******************************************
-  /* LAYOUT
-  /*******************************************/
-  
-  /* header nav *{
-    Width:70%;  
-    Float:right;
-    list-style-type: none;
-  }
-  
-  header nav li{
-    width:12.5%; 
-    float:left;
-  } */
-  
-  
-  /* 
-  header ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-  }
-  
-  header li{
-    flex-basis: 7%;
-  } */
-  
-  header {
-    background-color:none; /* Change to your desired background color */
-    padding: 10px 0;
-  }
-  
-  nav {
-    display: flex;
-    align-items: center; /* Vertically align items */
-    justify-content: space-between; /* Distribute items horizontally */
-  }
-  
-  .logo img {
-    width: 100px; /* Adjust the width as needed */
-    height: auto;
-    opacity: .6;
-  }
-  
-  .nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center; /* Vertically align items */
-  }
-  
-  .nav ul li {
-    margin: 0 10px; /* Adjust the spacing as needed */
-  }
-  
-  .nav ul li a {
-    text-decoration: none;
-    color: black; /* Change to your desired link color */
-  }
-  
-  .nav ul li img {
-    width: 24px; /* Adjust the width as needed */
-    height: auto;
-  }
-  
-  
-  main{
-    padding-top: 1px;
-    /* margin-bottom: 150px; */
-    padding-bottom: 200px;
-    padding-left:150px;
-    clear:both; /* WHAT THE FUCK DOES THIS DO */
-    background-image: url('/images/splash.jpg');
-    background-position-x: right;
-    background-size: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-  
-  main .heading{
-    width:30%;
-    font-size: 90px;
-    font-weight: bold;
-  }
-  
-  .upper{
-    margin: 140PX 0 0 1px;
-  }
-  
-  body > section {  
-    padding-bottom: 125px;
-  }
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
 
 
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background-color:none; /* Change to your desired background color */
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Distribute items horizontally */
+}
+
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+  opacity: .6;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center; /* Vertically align items */
+}
+
+.nav ul li {
+  margin: 0 10px; /* Adjust the spacing as needed */
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black; /* Change to your desired link color */
+}
+
+.nav ul li img {
+  width: 24px; /* Adjust the width as needed */
+  height: auto;
+}
+
+main{
+  padding-top: 1px;
+  /* margin-bottom: 150px; */
+  padding-bottom: 200px;
+  padding-left:150px;
+  clear:both; 
+  background-image: url('/images/splash.jpg');
+  background-position-x: right;
+  background-size: 100%;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+}
+
+main .heading{
+  width:30%;
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.upper{
+  margin: 140PX 0 0 1px;
+}
+
+body > section {  
+  padding-bottom: 125px;
+}
 
 form {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 form select[name="locations"] {
-  height: 40px; /* Adjust the height as needed */
-  font-size: 16px; /* Adjust the font size as needed */
-  
+height: 40px; /* Adjust the height as needed */
+font-size: 16px; /* Adjust the font size as needed */
+
 }
 form input[type="text"] {
-  height: 40px; 
-  width: 300px; 
-  font-size: 16px; 
+height: 40px; 
+width: 300px; 
+font-size: 16px; 
 }
 
 
 form select[name="locations"] {
-  margin-left: 10px; /* Adjust the spacing between input and dropdown */
-  border-radius: 20px;
-  background-color:orange;
-  color:white;
+margin-left: 10px; /* Adjust the spacing between input and dropdown */
+border-radius: 20px;
+background-color:orange;
+color:white;
 }
 
 .box{
 
-	width: 500px;
+width: 500px;
 
-	height: 50px;
+height: 50px;
 
-	background-color: white;
+background-color: white;
 
-	border-radius: 30px;
+border-radius: 30px;
 
-	display: flex;
+display: flex;
 
-	align-items: center;
+align-items: center;
 
-	padding: 20px;
+padding: 20px;
 
 }
 
 .box > i {
 
-	font-size: 20px;
+font-size: 20px;
 
-	color: #777;
+color: #777;
 
 }
 
 .box > input{
-
-	flex: 1;
-
-	height: 40px;
-
-	border: none;
-
-	outline: none;
-
-	font-size: 18px;
-
-	padding-left: 10px;
-
-
+flex: 1;
+height: 40px;
+border: none;
+outline: none;
+font-size: 18px;
+padding-left: 10px;
 }
 
 .icons{
-  width: 25px;
-  height: auto;
+width: 25px;
+height: auto;
+}
+
+.socialmedialinks{
+    padding-top: 10px;
+}
+
+.socialmedialinks .fb{
+  margin-left: 20px;
 }
 
 
+.socialmedialinks span {
+  margin-right: 70px; /* Adjust the margin as needed */
+}
 
+/******************************************
+/* ADDITIONAL STYLES
+/****************
+***************************/
+.second{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url('/images/BACKGROUND2.jpg');
+  background-position-x: right;
+  background-size: 100%;
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+}
 
+.second *{
+  margin-left:40%;
+}
 
+.second p{
+  width:50%;
+}
 
-  .socialmedialinks{
-      padding-top: 10px;
-  }
+.second .heading{
+  font-size: 45px;
+}
 
-  .socialmedialinks .fb{
-    margin-left: 20px;
+.button{
+  border:0;
+  background:orange;
+  padding:11px 30px;
+  font-size:14px
+}
+.button-default:hover {
+  background: #77a198;
+}
+/* 
+FOR NOW */
+p{
+  line-height: 1.5em;
+}
+
+.MIDDLE{
+  padding-top: 100px;
+  background-color: rgb(242, 246, 247);
+}
+
+.MIDDLE *{
+  display:flex;
+  justify-content: center;
 }
 
 
-  .socialmedialinks span {
-    margin-right: 70px; /* Adjust the margin as needed */
+.MIDDLE  li{
+  display: flex;
+  flex-basis: 7%;
+
 }
 
 
-  
-  /******************************************
-  /* ADDITIONAL STYLES
-  /****************
-  ***************************/
-  .second{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-image: url('/images/BACKGROUND2.jpg');
-    background-position-x: right;
-    background-size: 100%;
-    background-attachment: fixed;
-    /* background-repeat: no-repeat; */
-  }
-  
-  .second *{
-    margin-left:40%;
-  }
-  
-  .second p{
-    width:50%;
-  }
-  
-  .second .heading{
-    font-size: 45px;
-  }
-  
-  .button{
-    border:0;
-    background:orange;
-    padding:11px 30px;
-    font-size:14px
-  }
-  .button-default:hover {
-    background: #77a198;
-  }
-  /* 
-  FOR NOW */
-  p{
-    line-height: 1.5em;
-  }
-  
-  
-  .MIDDLE{
-    padding-top: 100px;
-    background-color: rgb(242, 246, 247);
-  }
-  
-  .MIDDLE *{
-    display:flex;
-    justify-content: center;
-  }
-  
-  
-  .MIDDLE  li{
-    display: flex;
-    flex-basis: 7%;
-  
-  }
-  
-  .images section {
-    margin: 0px 50px;
-  }
+.hours{
+  padding: 50px 0;
+  background-image: url('/images/BACKGROUND.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 
-  
-  .hours{
-    padding: 50px 0;
-    background-image: url('/images/BACKGROUND.jpg');
-    background-size: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-  
-  .hours *{
-   display: flex;
-   justify-content: center;
-  }
-  .hours section{
-    line-height: 1px;
-  }
-  
-  .PHONE{
+.hours *{
+ display: flex;
+ justify-content: center;
+}
+.hours section{
+  line-height: 1px;
+}
+
+.PHONE{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  WIDTH: 3%;
+}
+
+.orange{
+  color:orange;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.hours section{
+  justify-content: space-around;
+}
+
+.REVIEW{
+  background-color: rgb(197, 195, 196)
+}
+
+.REVIEW {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center;
+  background: linear-gradient(to right, rgb(242, 246, 247), white 50%, rgb(242, 246, 247));
+  padding: 20px; /* Add some padding for spacing */
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.REVIEW .reviewp {
+  width: 40%;
+  margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.REVIEW span{
+  margin-top: 8px;
+}
+
+.avatar, .stars{
+  border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 10px;
-    WIDTH: 3%;
-  }
-  
-  .orange{
-    color:orange;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  
-  .hours section{
-    justify-content: space-around;
-  }
-  
-  .REVIEW{
-    background-color: rgb(197, 195, 196)
-  }
-  
-  .REVIEW {
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center content horizontally */
-    text-align: center;
-    background: linear-gradient(to right, rgb(242, 246, 247), white 50%, rgb(242, 246, 247));
-    padding: 20px; /* Add some padding for spacing */
-    padding-top: 50px;
-    padding-bottom: 75px;
-  }
-  
-  .REVIEW .reviewp {
-    width: 40%;
-    margin-top: 20px; /* Add some top margin for spacing */
-  }
-  
-  .REVIEW span{
-    margin-top: 8px;
-  }
-  
-  .avatar, .stars{
-    border-radius: 50%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 8%;
-  }
-  
-  
-  footer{
-    background-color: rgb(208, 208, 208);
-  }
-  
-  footer section{
-    float:left;
-    width:25%;
-  }
-  
-  .images section img{
-   width:350px;
-   height:450px;
-  }
-  
-  .foot{
-    width:100px;
-    height: auto;
-    opacity: .6;
-  }
-  
-  /* header nav *, header nav li{
-    display: flex;
-  }
-  
-  header{
-    justify-content: flex-end;
-  }
-  header nav *{
-    justify-content: space-between;
-    width:70%;
-  }
-  header nav li{
-    flex-basis: 20%;
-  } */
-  
-  .summary {
-    width:80%;
-  }
+    width: 8%;
+}
+
+
+footer{
+  background-color: rgb(208, 208, 208);
+}
+
+footer section{
+  float:left;
+  width:25%;
+}
+
+
+.foot{
+  width:100px;
+  height: auto;
+  opacity: .6;
+}
+
+
+.summary {
+  width:80%;
+}
 
 .p ,.reviewp{
-  font-weight: bold;
-}
-/* 
+font-weight: bold;
+} 
 @media (max-width: 844PX) {
   body {
     background-size: auto;
   }
-
   .nav ul li:not(:nth-last-child(2)):not(:last-child) {
     display: none;
   }
-
   .upper h1{
     font-size: 50px;
   }
-} */
+}
 
+.images section {
+  margin: 0px 50px;
+}
 
-  
+.images section img{
+  width:350px;
+  height:450px;
+ }
+
+@media (max-width: 844px) {
+  .images section img {
+    display: block; /* Make the images block-level elements */
+    width: 100%; /* Set the width to 100% of the container */
+    max-width: none; /* Remove the maximum width */
+    max-height: none; /* Remove the maximum height */
+  }
+}
